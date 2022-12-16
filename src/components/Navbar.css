@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap');
+.navbar-expand-lg{
+    background: #3b0060;
+    color: #fff;
+}
+.navbar{
+    margin-bottom: 51px;
+}
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.navbar-nav .show >.nav-link {
+    color: rgba(255, 255, 255, 0.781);
+    font-weight: 500;
+    padding-inline-end: 14px;
+}
+.navbar-nav .nav-link.active{
+    color: #fff;
+}
