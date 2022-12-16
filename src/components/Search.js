@@ -25,8 +25,8 @@ export default function Search(props) {
           }}
           aria-label="Search"
         />
-        <button className="btn btn-outline-success" type="submit">
-          Search
+        <button className="btn" type="submit">
+          <i className="fas fa-search"></i>
         </button>
       </form>
     </>

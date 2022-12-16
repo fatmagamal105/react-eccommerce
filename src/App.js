@@ -82,7 +82,7 @@ function App() {
           <div className="col-9">
             <div className="row">
               {products.map((product) => (
-                <div className="col-3" key={product.id}>
+                <div className="col-4" key={product.id}>
                   <Card product={product} />
                 </div>
               ))}
